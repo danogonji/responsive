@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*================WEBSITE HEADER==================*/
+.header{
+    border: 1px solid black;
+    height: 150px;
+    width:100%;
+    min-width: 400px;
+
+    background-color: aquamarine;
+}
+
+.topbar {
+    height: 30%;
+    width: 100%;
+
+    background-color: red;
+}
+
+.logo {
+    height: 70%;
+    width: 150px;
+    float: left;
+
+    background-color: brown;
+}
+
+.navbar {
+    height: 70%;
+    width: 60%;
+    float: right;
+    overflow: hidden;
+
+    background-color: chocolate;
+}
+
+.topmenu {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0px;
+    overflow: hidden;
+}
+.topmenu li{
+    float:left;
+}
+
+.topmenu li a {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.topmenu li a :hover {
+    background-color: blueviolet;
+    color:  brown;
+}
+
+.topmenu li a :active {
+    background-color: green;
+    color: blue;
+}
+
+
+/*==============================SLIDER SECTION==============================*/
+.hero_section{
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 1px 0 0 0;
+    padding: 0px;
+    height: 400px;
+    width: 100%;
+}
+
+
+/*==============================ABOUT IST==================================*/
+.about_ist{
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin: 1px 0 0 0;
+    padding: 0px;
+    height: 300px;
+    width: 100%;
+}
+
+
+/*===============================REVIEWS=====================================*/
+.reviews{
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 1px 0 0 0;
+    padding: 0px;
+    height: 250px;
+    width: 100%;
+}
+
+/*===============================FOOTER=======================================*/
+.footer{
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+
+    box-sizing: border-box;
+    margin: 1px 0 0 0;
+    padding: 0px;
+
+    background-color: grey;
+}
+
+.footer_logo {
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 100%;
+    width: 30%;
+    float: left;
+
+}
+
+.additional_information {
+    border: 1px solid green;
+    box-sizing: border-box;
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+.additional_information-column {
+    float:left;
+
+    height: 100%;
+    width: 33%;
+}
+
+.additional_information ul {
+    list-style: none;
+}
+
+.additional_information li a {
+    color:black;
+    text-align: center;
+
+   
+}
